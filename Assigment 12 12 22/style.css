@@ -1,0 +1,78 @@
+#navbar{
+    display:flex;
+    /* border: 2px solid rgb(0, 0, 0);  */
+    padding: 10px;
+}
+#navright{
+    display: flex;
+    justify-content: end;
+}
+.navbar-brand{
+    margin: 5px;
+    font-size: large;
+    color: grey;
+}
+
+.container{
+    background-color: rgb(21, 131, 186);
+    padding: 0;
+    padding-right: 0;
+    margin: 0;
+    margin-top: 40px;
+}
+.containerBody{
+ padding:100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contentbutton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.pagebody{
+    margin-top: 60px;
+}
+.container2{
+    /* border:2px solid black; */
+    margin-left: 60px;
+    margin-right: 60px;
+   
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardrow1{
+display: flex;
+justify-content: space-between;
+padding:50px
+}
+.cardrow2{
+    display: flex;
+    justify-content: space-between;
+    padding:50px
+}
+.cardrow3{
+    display: flex;
+    justify-content: space-between;
+    padding:50px
+}
+.bottom{
+    color: blue;
+    display: flex;
+    justify-content: end;
+    margin: 25px;
+}
+.cardContent{
+    padding: 10px;
+}
